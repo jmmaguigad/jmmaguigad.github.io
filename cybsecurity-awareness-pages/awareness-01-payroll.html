@@ -220,7 +220,7 @@
                 </div>
                 <div>
                     <h3 class="text-base font-bold text-slate-900 mb-1">What Happened?</h3>
-                    <p class="text-sm text-slate-600 leading-relaxed">You received a simulated phishing email pretending to be from <strong>somone in the HRMD PAS</strong>, asking you to verify your payroll details for a Q2 2026 Salary Adjustment. The link <strong>https://dswd-hris.example.ph/payroll/verify</strong> led to a fake HRIS Payroll Verification Form that requested <strong>8 pieces of personal information</strong> - including your bank account number. This was part of <strong>DSWD's official cybersecurity awareness exercise (1st Quarter Phishing Simulation)</strong>.</p>
+                    <p class="text-sm text-slate-600 leading-relaxed">You received a simulated phishing email pretending to be from <strong>somone in the DSWD HRMDS Personnel Section</strong>, asking you to verify your payroll details for a Q2 2026 Salary Adjustment. The link <strong>https://dswd-hris.example.ph/payroll/verify</strong> led to a fake HRIS Payroll Verification Form that requested <strong>8 pieces of personal information</strong> - including your bank account number. This was part of <strong>DSWD's official cybersecurity awareness exercise (1st Quarter Phishing Simulation)</strong>.</p>
                 </div>
             </div>
         </div>
@@ -231,7 +231,7 @@
             <div class="bg-white rounded-lg border border-slate-200 p-4 space-y-2 text-sm">
                 <div class="flex gap-2"><span class="font-semibold text-slate-500 w-16 flex-shrink-0">From:</span><span class="text-slate-800 font-medium">J. Dela Cruz &lt;hr-payroll@dswd.gov.ph&gt;</span></div>
                 <div class="flex gap-2"><span class="font-semibold text-slate-500 w-16 flex-shrink-0">Subject:</span><span class="text-slate-800 font-medium">Payroll Adjustment Verification</span></div>
-                <div class="flex gap-2"><span class="font-semibold text-slate-500 w-16 flex-shrink-0">Tactic:</span><span class="text-red-700 font-semibold">Impersonation of HRMD PAS + urgency + fear of salary delay</span></div>
+                <div class="flex gap-2"><span class="font-semibold text-slate-500 w-16 flex-shrink-0">Tactic:</span><span class="text-red-700 font-semibold">Impersonation of DSWD HRMDS Personnel Section + urgency + fear of salary delay</span></div>
                 <div class="flex gap-2"><span class="font-semibold text-slate-500 w-16 flex-shrink-0">Link:</span><span class="text-slate-800 break-all">https://dswd-hris.example.ph/payroll/verify</span></div>
             </div>
         </div>
@@ -358,7 +358,7 @@
                                 <span class="text-xl flex-shrink-0">&#128176;</span>
                                 <div>
                                     <h4 class="text-sm font-bold text-slate-900 mb-0.5">Asks for Sensitive Financial Info</h4>
-                                    <p class="text-sm text-slate-600 leading-relaxed">The form asked for <strong>8 fields</strong>: Full Name, Employee ID, Division, Position Title, Salary Grade, Step Increment, Bank Name, and Bank Account Number. Real HRMD PAS never asks for these via email links.</p>
+                                    <p class="text-sm text-slate-600 leading-relaxed">The form asked for <strong>8 fields</strong>: Full Name, Employee ID, Division, Position Title, Salary Grade, Step Increment, Bank Name, and Bank Account Number. Real DSWD HRMDS Personnel Section never asks for these via email links.</p>
                                 </div>
                             </div>
                             <div class="bg-red-50 border border-red-100 rounded-lg p-3.5 flex gap-2.5 items-start">
@@ -400,14 +400,14 @@
                             <div class="w-6 h-6 bg-green-600 text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">1</div>
                             <div>
                                 <h4 class="text-sm font-semibold text-slate-900 mb-0.5">Never click email links for payroll verification</h4>
-                                <p class="text-sm text-slate-600">Always go directly to the HRIS portal using your bookmarked URL, or contact HRMD PAS in person.</p>
+                                <p class="text-sm text-slate-600">Always go directly to the HRIS portal using your bookmarked URL, or contact DSWD HRMDS or their Field Office Counterpart in person.</p>
                             </div>
                         </div>
                         <div class="flex gap-3 items-start py-3">
                             <div class="w-6 h-6 bg-green-600 text-white rounded-full flex items-center justify-center text-sm font-bold flex-shrink-0">2</div>
                             <div>
-                                <h4 class="text-sm font-semibold text-slate-900 mb-0.5">Verify directly with the HRMD PAS or Payroll Unit</h4>
-                                <p class="text-sm text-slate-600">Call the HRMD PAS office directly or visit in person. Never rely on email links.</p>
+                                <h4 class="text-sm font-semibold text-slate-900 mb-0.5">Verify directly with the DSWD HRMDS or their Field Office counterpart</h4>
+                                <p class="text-sm text-slate-600">Call the DSWD HRMDS or their Field Office counterpart directly or visit in person. Never rely on email links.</p>
                             </div>
                         </div>
                         <div class="flex gap-3 items-start py-3">
@@ -536,11 +536,11 @@
 
             <!-- Question 1 -->
             <div class="p-5" id="quiz1">
-                <p class="text-base font-semibold text-slate-900 mb-3 leading-relaxed">You receive an email from "HRMD PAS" asking you to verify your payroll details via a link. What should you do?</p>
+                <p class="text-base font-semibold text-slate-900 mb-3 leading-relaxed">You receive an email from "DSWD HRMDS Personnel Section" asking you to verify your payroll details via a link. What should you do?</p>
                 <div class="space-y-2" id="quiz1Options">
                     <button onclick="checkAnswer(1,false,this)" class="quiz-btn w-full text-left px-4 py-2.5 text-sm bg-white border border-slate-200 rounded-lg hover:bg-blue-50 hover:border-blue-400 transition-all">A) Click the link since it's from HR</button>
                     <button onclick="checkAnswer(1,false,this)" class="quiz-btn w-full text-left px-4 py-2.5 text-sm bg-white border border-slate-200 rounded-lg hover:bg-blue-50 hover:border-blue-400 transition-all">B) Reply to the email asking if it's legitimate</button>
-                    <button onclick="checkAnswer(1,true,this)" class="quiz-btn w-full text-left px-4 py-2.5 text-sm bg-white border border-slate-200 rounded-lg hover:bg-blue-50 hover:border-blue-400 transition-all">C) Call HRMD PAS directly using a known phone number to verify</button>
+                    <button onclick="checkAnswer(1,true,this)" class="quiz-btn w-full text-left px-4 py-2.5 text-sm bg-white border border-slate-200 rounded-lg hover:bg-blue-50 hover:border-blue-400 transition-all">C) Call DSWD HRMDS or their Field Office counterpart directly using a known phone number to verify</button>
                     <button onclick="checkAnswer(1,false,this)" class="quiz-btn w-full text-left px-4 py-2.5 text-sm bg-white border border-slate-200 rounded-lg hover:bg-blue-50 hover:border-blue-400 transition-all">D) Delete the email and ignore it</button>
                 </div>
                 <div id="quiz1Result" class="hidden mt-3 p-3 rounded-lg text-sm leading-relaxed"></div>
@@ -682,7 +682,7 @@
                 btn.classList.add('border-red-500', 'bg-red-50', '!opacity-100');
                 if (qNum === 1) {
                     result.className = 'mt-3 p-3 rounded-lg text-sm leading-relaxed bg-red-50 border border-red-200 text-red-800';
-                    result.innerHTML = '<strong>Not quite.</strong> The correct answer is <strong>C</strong>. Call HRMD PAS using a known number (not one from the email) to verify. Never click links or reply to the email directly.';
+                    result.innerHTML = '<strong>Not quite.</strong> The correct answer is <strong>C</strong>. Call DSWD HRMDS or their Field Office Counterpart using a known number (not one from the email) to verify. Never click links or reply to the email directly.';
                 } else {
                     result.className = 'mt-3 p-3 rounded-lg text-sm leading-relaxed bg-red-50 border border-red-200 text-red-800';
                     result.innerHTML = '<strong>Not quite.</strong> The correct answer is <strong>B</strong>. The checkbox creates a false sense of legitimacy - it\'s a social engineering tactic to make you feel committed to submitting the form.';
